@@ -2,9 +2,9 @@ package data
 
 import (
 	"gopkg.in/mgo.v2/bson"
-	"TaskManager/models"
 	"gopkg.in/mgo.v2"
 	"time"
+	"github.com/aleksbgs/TaskManager/models"
 )
 
 type NoteRepository struct {

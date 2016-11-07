@@ -2,11 +2,9 @@ package data
 
 import (
 	"gopkg.in/mgo.v2"
-	"TaskManager/models"
 	"gopkg.in/mgo.v2/bson"
 	"golang.org/x/crypto/bcrypt"
-
-
+	"github.com/aleksbgs/TaskManager/models"
 )
 
 type UserRepository struct {

@@ -8,9 +8,8 @@ import (
 	"github.com/gorilla/mux"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-
-	"TaskManager/common"
-	"TaskManager/data"
+	"github.com/aleksbgs/TaskManager/common"
+	"github.com/aleksbgs/TaskManager/data"
 )
 
 // CreateTask insert a new Task document

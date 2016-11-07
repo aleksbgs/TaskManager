@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/gorilla/mux"
-	"TaskManager/controllers"
+	"github.com/aleksbgs/TaskManager/controllers"
 )
 
 func SetUserRoutes(router * mux.Router) * mux.Router  {

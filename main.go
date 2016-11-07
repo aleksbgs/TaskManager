@@ -1,11 +1,12 @@
 package main
 
 import (
-	"TaskManager/common"
-	"TaskManager/routers"
+
 	"github.com/codegangsta/negroni"
 	"net/http"
 	"log"
+	"github.com/aleksbgs/TaskManager/common"
+	"github.com/aleksbgs/TaskManager/routers"
 )
 
 func main() {

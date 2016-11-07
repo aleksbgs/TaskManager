@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"gopkg.in/mgo.v2"
-	"TaskManager/common"
+	"github.com/aleksbgs/TaskManager/common"
 )
 
 type Context struct {

@@ -3,10 +3,9 @@ package controllers
 import (
 	"net/http"
 	"encoding/json"
-	"TaskManager/common"
-	"TaskManager/models"
-	"TaskManager/data"
-
+	"github.com/aleksbgs/TaskManager/common"
+	"github.com/aleksbgs/TaskManager/data"
+	"github.com/aleksbgs/TaskManager/models"
 )
 
 func Register(w http.ResponseWriter,r * http.Request){

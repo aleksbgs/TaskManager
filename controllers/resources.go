@@ -1,6 +1,9 @@
 package controllers
 
-import "TaskManager/models"
+import (
+
+	"github.com/aleksbgs/TaskManager/models"
+)
 
 type (
 	//For Post - /user/register

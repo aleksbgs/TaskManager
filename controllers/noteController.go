@@ -1,14 +1,15 @@
 package controllers
 
 import (
-	"TaskManager/data"
-	"TaskManager/common"
+
 	"net/http"
 	"github.com/gorilla/mux"
 	"encoding/json"
-	"TaskManager/models"
 	"gopkg.in/mgo.v2/bson"
 	"gopkg.in/mgo.v2"
+	"github.com/aleksbgs/TaskManager/data"
+	"github.com/aleksbgs/TaskManager/common"
+	"github.com/aleksbgs/TaskManager/models"
 )
 
 func CreateNote(w http.ResponseWriter, r *http.Request) {
